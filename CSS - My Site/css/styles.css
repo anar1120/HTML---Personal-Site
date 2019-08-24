@@ -24,6 +24,10 @@ body {
 h1 {
   margin: 0;
   font-family: 'Dancing Script', cursive;
+  font-size: 562.5%;
+}
+h2 {
+  font-size: 400%;
 }
 
 p {
@@ -47,6 +51,9 @@ p {
 }
 .Portrait {
   border-radius: 100px;
+}
+.coding {
+  width: 99%;
 }
 .keyboard {
   height: 200px;

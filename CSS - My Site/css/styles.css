@@ -44,7 +44,7 @@ h3 {
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
-  margin: 0;
+  line-height: 2;
 }
 a {
   font-size: 1rem;
@@ -73,11 +73,13 @@ a {
   width: 25%;
   float: left;
   margin-right: 30px;
+  border-radius: 50px;
 }
 .keyboard {
   width: 25%;
   float: right;
   margin-left: 30px;
+  border-radius: 50px;
 }
 .skill-row {
   width: 50%;

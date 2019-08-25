@@ -4,9 +4,10 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  font-size: 200%;
 }
 .top-box {
-  background-color: aqua;
+  background-color: #97F4FC;
   margin: 0;
   padding: 0;
   position: relative;
@@ -22,16 +23,32 @@ body {
 }
 
 h1 {
-  margin: 0;
+  margin: 50px auto 0 auto;
   font-family: 'Dancing Script', cursive;
-  font-size: 562.5%;
+  font-size: 5.625rem;
+  color: #66bfbf;
 }
 h2 {
-  font-size: 400%;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  line-height: 2;
+
+}
+h3 {
+  font-size: 1.25rem;
+  color: #11999E;
+  margin: 0;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+a {
+  font-size: 1rem;
+  color: #11999E;
 }
 
 
@@ -53,9 +70,18 @@ p {
   border-radius: 100px;
 }
 .coding {
-  width: 99%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 .keyboard {
-  height: 200px;
-  border-radius: 100px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
